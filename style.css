@@ -12,8 +12,17 @@
 .btn1{
     margin-left: auto;
     margin-right: auto;
+    padding-right: 10px;
+    
 }
 .btn2{
     margin-left: auto;
     margin-right: auto;
+}
+#btn__div{
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    width: 50px;
+    display: flex ; 
 }
