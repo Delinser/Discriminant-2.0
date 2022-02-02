@@ -7,6 +7,11 @@
     background-color: black;
     border-radius: 25px;
 }
+#content__title{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
 .form-group{
     margin-bottom: 30px;
 }
