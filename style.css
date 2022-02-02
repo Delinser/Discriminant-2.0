@@ -1,6 +1,6 @@
 .content{
     width: 620px;
-    height: 200px;
+    height: 150px;
     margin-left: auto;
     margin-right: auto;
     border: 1;
@@ -22,11 +22,11 @@
 }
 #elem{
     height: 30px;
-    width: 45px;
+    width: 50px;
 
 }
 #clearButton{
     height: 30px;
-    width: 45px;
+    width: 50px;
 
 }
