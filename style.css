@@ -18,15 +18,17 @@
     margin-bottom: 30px;
 }
 .divbtn{
-    margin-left: 262px;
+    margin-top: 69px;
+    display: flex;
 }
 #elem{
     height: 30px;
-    width: 50px;
-
+    width: 310px;
+    border-radius: 0px 0px 0px 25px;
+    
 }
 #clearButton{
     height: 30px;
-    width: 50px;
-
+    width: 310px;
+    border-radius: 0px 0px 25px 0px;
 }
