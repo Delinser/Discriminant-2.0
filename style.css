@@ -8,9 +8,11 @@
     border-radius: 25px;
 }
 #content__title{
-    display: block;
     margin-right: auto;
     margin-left: auto;
+    height: 30px;
+    width: 100px;
+
 }
 .form-group{
     margin-bottom: 30px;
@@ -26,5 +28,5 @@
 #btn__div{
     height: 30px;
     width: 50px;
-    display: flex ; 
+    display: flex; 
 }
