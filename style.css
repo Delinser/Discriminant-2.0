@@ -17,13 +17,13 @@
 .form-group{
     margin-bottom: 30px;
 }
-.btn1{
+#elem{
     margin-right: auto;
     margin-left: auto;
     height: 30px;
     width: 40px;
 }
-.btn2{
+#clearButton{
     margin-right: auto;
     margin-left: auto;
     height: 30px;
