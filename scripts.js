@@ -1,5 +1,5 @@
 
-            elem.onclick = function dis() {
+            countButton.onclick = function dis() {
             let A = document.getElementById('inp_1').value 
             let B = document.getElementById('inp_2').value 
             let C = document.getElementById('inp_3').value 
