@@ -5,6 +5,7 @@
     margin-right: auto;
     border: 1;
     background-color: black;
+    border-radius: 25px;
 }
 .form-group{
     margin-bottom: 30px;
