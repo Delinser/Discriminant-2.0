@@ -17,15 +17,7 @@
 .form-group{
     margin-bottom: 30px;
 }
-#elem{
-    margin-right: auto;
+.divbtn{
     margin-left: auto;
-    height: 30px;
-    width: 45px;
-}
-#clearButton{
     margin-right: auto;
-    margin-left: auto;
-    height: 30px;
-    width: 45px;
 }
