@@ -35,3 +35,6 @@
 .form-control{
     display: block;
 }
+.input__style{
+    display: flex;
+}
