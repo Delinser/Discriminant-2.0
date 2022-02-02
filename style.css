@@ -45,5 +45,8 @@ body{
     display: flex;
 }
 .label{
-
+float: left;
+}
+.intp{
+    margin-left: 14px;
 }
