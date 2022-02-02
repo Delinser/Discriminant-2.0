@@ -21,8 +21,9 @@ body{
     margin-bottom: 30px;
 }
 .divbtn{
-    margin-top: 20px;
+    margin-top: 6.5%;
     display: flex;
+
 }
 #countButton{
     height: 30px;
