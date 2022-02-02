@@ -1,6 +1,6 @@
 .content{
     width: 620px;
-    height: 150px;
+    height: 100px;
     margin-left: auto;
     margin-right: auto;
     border: 1;
@@ -18,14 +18,14 @@
     margin-bottom: 30px;
 }
 .divbtn{
-    margin-top: 69px;
+    margin-top: 20px;
     display: flex;
 }
 #elem{
     height: 30px;
     width: 310px;
     border-radius: 0px 0px 0px 25px;
-    
+
 }
 #clearButton{
     height: 30px;
