@@ -1,4 +1,4 @@
-
+            function square(){
             countButton.onclick = function dis() {
             let A = document.getElementById('inp_1').value 
             let B = document.getElementById('inp_2').value 
@@ -27,11 +27,33 @@
                 }
             
             }
-            clearButton.onclick = function clearf(){
-                document.getElementById("inp_1").value = ""
-                document.getElementById("inp_2").value = ""
-                document.getElementById("inp_3").value = ""
-            }
+            
                
-          
-           
+           }
+        function pih(){
+
+            countButton.onclick = function dis() {
+                let A = document.getElementById('inp_4').value 
+                let B = document.getElementById('inp_5').value 
+                let C = document.getElementById('inp_6').value 
+            }
+            
+            let c = Math.sqrt((a**2 + b**2))
+            let a = Math.sqrt((c**2 - b**2))
+            let b = Math.sqrt((c**2 - a**2))
+            
+
+
+
+
+            clearButton.onclick = function clearf(){
+                            document.getElementById("inp_4").value = ""
+                            document.getElementById("inp_5").value = ""
+                            document.getElementById("inp_6").value = ""
+                        }
+
+
+
+
+        }
+    
