@@ -18,19 +18,14 @@
     margin-bottom: 30px;
 }
 .btn1{
+    margin-right: auto;
     margin-left: auto;
     height: 30px;
     width: 40px;
 }
 .btn2{
+    margin-right: auto;
     margin-left: auto;
     height: 30px;
     width: 40px;
-}
-#btn__div{
-    margin-left: auto;
-    margin-right: auto;
-    height: 30px;
-    width: 50px;
-    display: flex; 
 }
