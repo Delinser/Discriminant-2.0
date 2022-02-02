@@ -22,7 +22,7 @@
                 }
                 }
                 else {
-                    alert("D=" + B2 + "-4*" + A +"*" + C + "=" + D  +  '\n' +  "Poshel na xui")
+                    alert("D=" + B2 + "-4*" + A +"*" + C + "=" + D  +  '\n' +  "Nan")
                 }
                 }
             
