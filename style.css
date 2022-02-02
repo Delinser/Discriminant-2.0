@@ -25,10 +25,13 @@
     height: 30px;
     width: 310px;
     border-radius: 0px 0px 0px 25px;
-
+    color: ; 
 }
 #clearButton{
     height: 30px;
     width: 310px;
     border-radius: 0px 0px 25px 0px;
+}
+.form-control{
+    display: block;
 }
