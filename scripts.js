@@ -11,7 +11,7 @@
             let Dsq = Math.sqrt(D)
            
                 if(A == ""){
-                    alert("ИДИ на хуй")
+                    alert("NoN")
 
                 }
                 else{
