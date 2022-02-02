@@ -1,5 +1,5 @@
             
-            countButton.onclick = function dis() {
+           countButton.onclick = function dis() {
             let A = document.getElementById('inp_1').value 
             let B = document.getElementById('inp_2').value 
             let C = document.getElementById('inp_3').value 
@@ -26,35 +26,40 @@
                 }
                 }
             
+                clearButton.onclick = function clearf(){
+                    document.getElementById("inp_1").value = ""
+                    document.getElementById("inp_2").value = ""
+                    document.getElementById("inp_3").value = ""
+                }
             }
             
                
-        
-       
-
-            countButton1.onclick = function dis() {
+            countButton1.onclick = function sqrt() {
                 let A1 = document.getElementById('inp_4').value 
                 let B1 = document.getElementById('inp_5').value 
                 let C1 = document.getElementById('inp_6').value 
             }
             
-            let c = Math.sqrt((a**2 + b**2))
-            let a = Math.sqrt((c**2 - b**2))
-            let b = Math.sqrt((c**2 - a**2))
+           let c = Math.sqrt((A1**2 + B1**2))
+           let a = Math.sqrt((C1**2 - B1**2))
+            let b = Math.sqrt((C1**2 - A1**2))
 
-            if(C1 == ""){
+            if(C1 == ""){ 
+                
                 alert(c)
             }
             if(A1 == ""){
-                alert(a)
+                
+                alert(a) 
             }
             if(B1 == ""){
+                
                 alert(b)
             }
 
 
 
-            clearButton1.onclick = function clearf(){
+            clearButton1.onclick = function clearf1(){
                             document.getElementById("inp_4").value = ""
                             document.getElementById("inp_5").value = ""
                             document.getElementById("inp_6").value = ""
