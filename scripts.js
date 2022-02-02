@@ -10,15 +10,15 @@
             let B2 =  B**2
             let Dsq = Math.sqrt(D)
            
-                if(A = ""){
+                if(A == ""){
                     alert("ИДИ на хуй")
 
                 }
                 else{
                     if(D>=0){
-                    alert("D=" + B2 + "-4*" + A +"*" + C + "=" + D + '\n' + "X1=" + -B + "+" + Dsq + "=" + X1 + '\n' + "X2=" + -B + "-" + Dsq + "=" + X2  )
+                    alert("D=" + B2 + "-4*" + A +"*" + C + "=" + D + '\n' + "X1=" + "(" + -B + "+" + Dsq + ")" + "/" + "(" + A + "*2" + ")" + "=" + X1 + '\n' + "X2=" + "(" + -B + "-" + Dsq + ")/("+  A + "*2"+ ")"+ "=" + X2  )
                 if(D=0){
-                    alert("D=" + B2 + "-4*" + A + "*" + C + "=" + D + '\n' + "X12=" + -B + "+" + Dsq + "=" + X1  )
+                    alert("D=" +  B2 + "-4*" + A + "*" + C + "=" + D + '\n' + "X12=" + "(" + -B + "+" + Dsq + ")" + "/" + "(" + A + "*2)"+ "=" + X1  )
                 }
                 }
                 else {
@@ -27,7 +27,7 @@
                 }
             
             }
-            clearButton.onclick = function clearf (){
+            clearButton.onclick = function clearf(){
                 document.getElementById("inp_1").value = ""
                 document.getElementById("inp_2").value = ""
                 document.getElementById("inp_3").value = ""
