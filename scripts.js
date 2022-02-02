@@ -1,4 +1,4 @@
-            function square(){
+            
             countButton.onclick = function dis() {
             let A = document.getElementById('inp_1').value 
             let B = document.getElementById('inp_2').value 
@@ -29,24 +29,32 @@
             }
             
                
-           }
-        function pih(){
+        
+       
 
-            countButton.onclick = function dis() {
-                let A = document.getElementById('inp_4').value 
-                let B = document.getElementById('inp_5').value 
-                let C = document.getElementById('inp_6').value 
+            countButton1.onclick = function dis() {
+                let A1 = document.getElementById('inp_4').value 
+                let B1 = document.getElementById('inp_5').value 
+                let C1 = document.getElementById('inp_6').value 
             }
             
             let c = Math.sqrt((a**2 + b**2))
             let a = Math.sqrt((c**2 - b**2))
             let b = Math.sqrt((c**2 - a**2))
-            
+
+            if(C1 == ""){
+                alert(c)
+            }
+            if(A1 == ""){
+                alert(a)
+            }
+            if(B1 == ""){
+                alert(b)
+            }
 
 
 
-
-            clearButton.onclick = function clearf(){
+            clearButton1.onclick = function clearf(){
                             document.getElementById("inp_4").value = ""
                             document.getElementById("inp_5").value = ""
                             document.getElementById("inp_6").value = ""
@@ -54,6 +62,5 @@
 
 
 
-
-        }
+    
     
