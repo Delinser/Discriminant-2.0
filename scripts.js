@@ -85,8 +85,10 @@
             let D2 = document.getElementById('inp_10').value 
             let E2 = document.getElementById('inp_11').value 
             let F2 = document.getElementById('inp_12').value 
-            
-            
+            if((A2 == "" && B2 == "") && C2 == ""){
+                alert("")
+            }
+
 
         
            
