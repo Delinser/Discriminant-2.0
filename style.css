@@ -1,5 +1,7 @@
 body{
     height: 2000px;
+    background-image: url(https://avatars.mds.yandex.net/i?id=2c54c08239c293f68bd1dcc8d82269fe-5607836-images-thumbs&n=13&exp=1);
+    
 }
 .content{
     width: 620px;
@@ -97,4 +99,68 @@ body{
     height: 30px;
     width: 310px;
     border-radius: 0px 0px 25px 0px;
+}
+.log{
+    border: 1;
+    background-color: grey;
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 0px 0px 25px 0px;
+    position: fixed;
+
+}
+#log__countButton{
+width: 250px;
+height: 40px;
+border-radius: 0px 0px 0px 0px;
+}
+#log__clearButton{
+width: 250px;
+height: 40px;
+border-radius: 0px 0px 25px 0px;
+
+}
+.log__form-control{
+ display: flex;
+ float: left;
+margin-top: 0px;
+}
+.input__base{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    left: 70px;
+    top: 10px;
+}
+.input__num{
+    width: 34px;
+    height: 34px;
+    position: relative;
+    left: 105px;
+    top: -70px;
+}
+.img__log{
+    width: 50px;
+    position: relative;
+    top: 50px;
+    left: 35px;
+}
+.log__span{
+    border: 1;
+    position: relative;
+    top: -46px;
+    left: 200px;
+    color: black;
+    background-color: white;
+    width: 290px;
+}
+.img__ic{
+    width: 30px;
+    position: relative;
+    left: 160px;
+    top: 20px;
+
 }
