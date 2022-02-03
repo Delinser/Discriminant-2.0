@@ -93,7 +93,7 @@
                 alert("Enter at least one number ")
             }
             if(((A2 == "" || B2== "")|| C2 == "") && (D2!= "" || E2 != "") || F2 != ""){
-                alert("vse zbs")
+                alert("ok")
 
             }
             else{
