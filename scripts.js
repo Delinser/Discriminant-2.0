@@ -76,6 +76,31 @@
                 document.getElementById("inp_5").value = ""
                 document.getElementById("inp_6").value = ""
             };// End of code
+
+            countButton2.onclick = function sint(){
+
+            let A2 = document.getElementById('inp_7').value 
+            let B2 = document.getElementById('inp_8').value 
+            let C2 = document.getElementById('inp_9').value 
+            let D2 = document.getElementById('inp_10').value 
+            let E2 = document.getElementById('inp_11').value 
+            let F2 = document.getElementById('inp_12').value 
+            
+            
+
+        
+           
+
+            };                              
+            clearButton2.onclick = function clearf2(){                                         //Clear values in inputs(sqrt)
+                document.getElementById("inp_7").value = ""
+                document.getElementById("inp_8").value = ""
+                document.getElementById("inp_9").value = ""
+                document.getElementById("inp_10").value = ""
+                document.getElementById("inp_11").value = ""
+                document.getElementById("inp_12").value = ""
+            };// End of code
+                
                 
 
     
