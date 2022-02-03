@@ -7,6 +7,15 @@
     background-color: black;
     border-radius: 25px;
 }
+.content1{
+    width: 620px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1;
+    background-color: black;
+    border-radius: 25px;
+}
 #content__title{
     margin-right: auto;
     margin-left: auto;
