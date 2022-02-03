@@ -9,7 +9,7 @@
 }
 .content1{
     width: 620px;
-    height: 3000px;
+    height: 170px;
     margin-left: auto;
     margin-right: auto;
     border: 1;
@@ -83,7 +83,6 @@ float: left;
     height: 30px;
     width: 310px;
     border-radius: 0px 0px 0px 25px;
-    
 }
 #clearButton2{
     height: 30px;
