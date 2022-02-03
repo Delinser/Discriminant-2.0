@@ -48,9 +48,6 @@
                     document.getElementById("inp_2").value = ""
                     document.getElementById("inp_3").value = ""
                 };
-                
-            
-            
                
             countButton1.onclick = function sqrt() {                                            // Pull values from inputs(sqrt)
                 let A1 = document.getElementById('inp_4').value 
@@ -127,11 +124,6 @@
                 else{
                     alert("i="+ i)                                                        // вот сюда
                 }
-            
-
-
-        
-           
 
             };                              
             clearButton2.onclick = function clearf2(){                                         //Clear values in inputs(sint)
@@ -142,9 +134,3 @@
                 document.getElementById("inp_11").value = ""
                 document.getElementById("inp_12").value = ""
             };// End of code
-                //for(let i = 0;1<0;)
-                
-              
-
-    
-      
