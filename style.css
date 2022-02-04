@@ -154,6 +154,13 @@ margin-top: 0px;
     top: 50px;
     left: 35px;
 }
+.img__ic{
+    width: 30px;
+    position: relative;
+    left: 160px;
+    top: 20px;
+
+}
 .log__span{
     border: 1;
     position: relative;
@@ -163,13 +170,7 @@ margin-top: 0px;
     background-color: white;
     width: 290px;
 }
-.img__ic{
-    width: 30px;
-    position: relative;
-    left: 160px;
-    top: 20px;
 
-}
 footer{
     position: absolute;
 	left: 0;
