@@ -1,11 +1,15 @@
 html{
     height: 100%;
+    width: 1900px;
+    max-width: 1900px;
 }
 body{
     height: 1500px;
     background-image: url(https://avatars.mds.yandex.net/i?id=2c54c08239c293f68bd1dcc8d82269fe-5607836-images-thumbs&n=13&exp=1);
     margin: 0px;
     padding: 0px;
+    width: 1900px;
+    margin-bottom: 0px;
 
 
 }
@@ -41,7 +45,15 @@ body{
     width: 100px;
 
 }
-.form-group{
+#form-group{
+    margin-bottom: 30px;
+    display: block;
+}
+#form-group1{
+    margin-bottom: 30px;
+    display: block;
+}
+#form-group2{
     margin-bottom: 30px;
     display: block;
 }
@@ -115,8 +127,6 @@ body{
     top: 0px;
     left: 0px;
     border-radius: 0px 0px 25px 0px;
-    position: fixed;
-
 }
 #log__countButton{
     width: 250px;
@@ -132,7 +142,7 @@ body{
 .log__form-control{
     display: flex;
     float: left;
-    margin-top: 0px;
+    margin-top: 20px;
 }
 .input__base{
     width: 28px;
@@ -171,13 +181,168 @@ body{
     width: 290px;
 }
 
-footer{
+#footer{
     position: absolute;
 	left: 0;
-	bottom: -600px;
+	bottom: -630px;
 	width: 100%;
 	height: 80px;
     background-color: black;
     color: white;
     text-align: center;
 }
+/* .list{ */
+    /* position: absolute;
+    top: 0px;
+    position: fixed;
+    margin-left: 1660px;
+    background-color: grey;
+    width: 250px;
+    height: 100%;
+    height: 89.2%;
+    width: 10%;
+    position: fixed;
+    z-index: 1;
+    top:0%;
+    left: 90%;
+    background-color: rgba(143, 126, 126, 0.385);
+    overflow-x: hidden;
+    padding-top: 20px;
+    display: block;
+} */
+.list__a{
+    /* text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: black; */
+    border-color:black;
+    font-size: 120%;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 15px;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: honeydew;
+    user-select:none;
+    display: inline-block;
+    letter-spacing: 2px;
+    transition: 500ms;
+    transform: translateY(5px);
+    text-decoration: none;
+    color: black;
+    
+}
+.list__a:hover {
+    box-shadow: 0px 15px 20px rgba(97, 83, 83, 0.474);
+    transform:scale(105%)
+}
+.list__div{
+    width: 150px;
+    height: 35px;
+    padding-bottom: 35px;
+    border: 1;
+    border-color: #111;
+
+}
+.list-content{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    height: 60px;
+    padding-bottom: 30px;
+}
+.menu_mobile {
+    position: fixed;
+    display: block;
+    width:200px;
+    height: 91.5%;
+    left: 1903px;
+    top: 0;
+    z-index: 1;
+    background-color: rgba(237, 225, 225, 0.563);
+    transition: left 1s 0s;
+  }
+  
+  .menu_mobile.active {
+    left: 1703px;
+    transition: left 1s;
+  }
+  
+  .close-menu {
+    margin: 10px 10px 10px 10px ;
+    transform: scale(0);
+    transition: transform 0s;
+  }
+  
+  .close-menu-active {
+    transform: scale(1);
+    transition: transform 0s 0s;
+  }
+  .button-19{
+      position:absolute;
+      top: 65px;
+      left: 1770px;
+      position: fixed;
+      appearance: button;
+      background-color: #1899D6;
+      border: solid transparent;
+      border-radius: 16px;
+      border-width: 0 0 4px;
+      box-sizing: border-box;
+      color: #FFFFFF;
+      cursor: pointer;
+      display: inline-block;
+      font-family: din-round,sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: .8px;
+      line-height: 20px;
+      margin: 0;
+      outline: none;
+      overflow: visible;
+      padding: 13px 16px;
+      text-align: center;
+      text-transform: uppercase;
+      touch-action: manipulation;
+      transform: translateZ(0);
+      transition: filter .2s;
+      user-select: none;
+      -webkit-user-select: none;
+      vertical-align: middle;
+      white-space: nowrap;
+      width:123px;
+  }
+  .button-19:after {
+    background-clip: padding-box;
+    background-color: #1CB0F6;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    bottom: -4px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  }
+  
+  .button-19:main,
+  .button-19:focus {
+    user-select: auto;
+  }
+  
+  .button-19:hover:not(:disabled) {
+    filter: brightness(1.1);
+  }
+  
+  .button-19:disabled {
+    cursor: auto;
+  }
+  #x-button{
+      width: 15px;
+      height: 15px;
+      
+  }

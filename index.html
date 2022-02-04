@@ -11,7 +11,7 @@
 </head> 
 <body>
   <div class="content">
-    <div class="form-group">
+    <div id="form-group">
       <div id="content__title">
          <h3  style="color: rgba(255, 255, 255, 0.986);">Discriminant</h3>
       </div>
@@ -39,7 +39,7 @@
 
   </div> 
   <div class="content">
-    <div class="form-group">
+    <div id="form-group1">
       <div id="content__title1">
          <h3  style="color: azure;">Pifahor</h3>
       </div>
@@ -65,7 +65,7 @@
       <button id="clearButton1">Clear</button>
     </div>
     <div class="content1">
-      <div class="form-group">
+      <div id="form-group2">
         <div id="content__title1">
            <h3  style="color: azure;">Theorema of sinuses</h3>
         </div>
@@ -104,7 +104,7 @@
             <button id="clearButton2">Clear</button>
           </div>
     </div> 
-    <div class="log">
+    <div id="log-frame" class="log">
       <div id="content__title1">
         <h3  style="color: black;">Logarithm </h3>
      </div>
@@ -126,12 +126,26 @@
         <button id="log__countButton">Count</button>
         <button id="log__clearButton">Clear</button>
      </div>
-     
+    </div>
+    </div>
+    </div>
+    
+    
+      
+      
+    <div class="menu-btn">
+      <button id="menu_" class="button-19" role="button"  onclick="(document.getElementById('menu_').style.display='none')" >Menu</button>
     </div>
 
-    </div>
-    </div>
-    <footer>
+    <div class="menu_mobile">
+        <button class="close-menu" onclick="(document.getElementById('menu_').style.display='block')"><img id="x-button" src="https://www.pngkey.com/png/full/16-164955_x-shape-png-high-quality-image-crochet-needles.png" alt=""></button>
+        <div class="list-content"><h4> Content </h4></div>
+      <div class="list__div"><a  class="list__a" href="#form-group">Discriminant</a></div>
+      <div class="list__div"><a  class="list__a" href="#form-group1">Pifahor</a></div>
+      <div class="list__div"><a  class="list__a" href="#form-group2">Theorema of sinuses</a></div>
+      <div class="list__div"><a  class="list__a" href="#log-frame">Logarithm</a></div>
+    </div>  
+      <footer id="footer">
       <h4>Made by aleksdupx & Delinser </h4>
     </footer>
 </body>

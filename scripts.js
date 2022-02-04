@@ -166,7 +166,33 @@
                 document.getElementById("inp_14").value = ""
                 document.getElementById('log__span').innerHTML = ""
                  
-               };// End of code                              
+               };// End of code      
+               
+            document.querySelector('.button-19').addEventListener('click', () => {
+                document.querySelector('.menu_mobile').classList.add('active');
+                document.querySelector('.close-menu').classList.add('close-menu-active');
+              })
+            
+              
+              document.querySelector('.close-menu').addEventListener('click', () => {
+                document.querySelector('.menu_mobile').classList.remove('active');
+                document.querySelector('.close-menu').classList.remove('close-menu-active')
+              })
+           
+
+
+
+
+               $('a[href^="#"').on('click', function() {                                                       // scroll
+
+                let href = $(this).attr('href');
+            
+                $('html, body').animate({
+                    scrollTop: $(href).offset().top
+                });
+                return false;
+            });                  
+                                           
            
 
 
