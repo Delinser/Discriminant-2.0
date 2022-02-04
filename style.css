@@ -119,20 +119,20 @@ body{
 
 }
 #log__countButton{
-width: 250px;
-height: 40px;
-border-radius: 0px 0px 0px 0px;
+    width: 250px;
+    height: 40px;
+    border-radius: 0px 0px 0px 0px;
 }
 #log__clearButton{
-width: 250px;
-height: 40px;
-border-radius: 0px 0px 25px 0px;
+    width: 250px;
+    height: 40px;
+    border-radius: 0px 0px 25px 0px;
 
 }
 .log__form-control{
- display: flex;
- float: left;
-margin-top: 0px;
+    display: flex;
+    float: left;
+    margin-top: 0px;
 }
 .input__base{
     width: 28px;
@@ -174,7 +174,7 @@ margin-top: 0px;
 footer{
     position: absolute;
 	left: 0;
-	bottom: -400px;
+	bottom: -600px;
 	width: 100%;
 	height: 80px;
     background-color: black;
