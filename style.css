@@ -319,8 +319,12 @@ body{
   .button-19:disabled {
     cursor: auto;
   }
-  #x-button{
-      width: 15px;
-      height: 15px;
+  #gif_rofl{
+      width: 600px;
+      height: 300px;
+      position: relative;
+      left: -1300px;
+      top: 150px;
+      display: none;
       
   }
