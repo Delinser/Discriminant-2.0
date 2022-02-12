@@ -125,18 +125,18 @@ body{
     height: 250px;
     position: absolute;
     top: 0px;
-    left: 0px;
-    border-radius: 0px 0px 25px 0px;
+    left: 1400px;
+    border-radius: 0px 0px 0px 25px;
 }
 #log__countButton{
     width: 250px;
     height: 40px;
-    border-radius: 0px 0px 0px 0px;
+    border-radius: 0px 0px 0px 25px;
 }
 #log__clearButton{
     width: 250px;
     height: 40px;
-    border-radius: 0px 0px 25px 0px;
+    border-radius: 0px 0px px 0px;
 
 }
 .log__form-control{
@@ -236,7 +236,7 @@ body{
     display: block;
     width:200px;
     height: 91.5%;
-    left: 1903px;
+    left: -200px;
     top: 0;
     z-index: 1;
     background-color: rgba(237, 225, 225, 0.563);
@@ -244,7 +244,7 @@ body{
   }
   
   .menu_mobile.active {
-    left: 1703px;
+    left: 0px;
     transition: left 1s;
   }
   
@@ -258,67 +258,7 @@ body{
     transform: scale(1);
     transition: transform 0s 0s;
   }
-  .button-19{
-      position:absolute;
-      top: 65px;
-      left: 1770px;
-      position: fixed;
-      appearance: button;
-      background-color: #1899D6;
-      border: solid transparent;
-      border-radius: 16px;
-      border-width: 0 0 4px;
-      box-sizing: border-box;
-      color: #FFFFFF;
-      cursor: pointer;
-      display: inline-block;
-      font-family: din-round,sans-serif;
-      font-size: 15px;
-      font-weight: 700;
-      letter-spacing: .8px;
-      line-height: 20px;
-      margin: 0;
-      outline: none;
-      overflow: visible;
-      padding: 13px 16px;
-      text-align: center;
-      text-transform: uppercase;
-      touch-action: manipulation;
-      transform: translateZ(0);
-      transition: filter .2s;
-      user-select: none;
-      -webkit-user-select: none;
-      vertical-align: middle;
-      white-space: nowrap;
-      width:123px;
-  }
-  .button-19:after {
-    background-clip: padding-box;
-    background-color: #1CB0F6;
-    border: solid transparent;
-    border-radius: 16px;
-    border-width: 0 0 4px;
-    bottom: -4px;
-    content: "";
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: -1;
-  }
   
-  .button-19:main,
-  .button-19:focus {
-    user-select: auto;
-  }
-  
-  .button-19:hover:not(:disabled) {
-    filter: brightness(1.1);
-  }
-  
-  .button-19:disabled {
-    cursor: auto;
-  }
   #gif_rofl{
       width: 600px;
       height: 300px;
@@ -327,4 +267,9 @@ body{
       top: 150px;
       display: none;
       
+  }
+  #menu_arrow{
+      position: relative;
+      left: 0px;
+      top: -200px;
   }
