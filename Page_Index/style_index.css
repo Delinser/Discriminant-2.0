@@ -3,8 +3,9 @@ body,html{
     min-height: 100%;
     margin: 0px;
     height: 100%;
-   background-image: url(https://phonoteka.org/uploads/posts/2021-05/1621756087_31-phonoteka_org-p-fon-s-formulami-po-matematike-32.jpg);
-   
+   background-image: url(https://was.media/wp-content/uploads/2019/08/roman_s_cower.jpg);
+   background-repeat: no-repeat;
+   background-size: 100%;
 }   
 .wrapper{
     width: 1000px;
@@ -13,8 +14,6 @@ body,html{
     background-color: rgba(255, 255, 255, 0.981);
     display: flex;
     flex-direction: column;
-    height: 100%;
-    
 }
 header{
     width: 100%;
@@ -106,7 +105,6 @@ footer{
   .a_logo{
     text-decoration: none;
     color: white;
-    width: 50px;
     display: block;
     background-image: url(logo.png);
     width: 50px;
