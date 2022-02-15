@@ -1,49 +1,62 @@
 body,html{
+    background-color: gray;
+    min-height: 100%;
     margin: 0px;
-    width: 100%;
     height: 100%;
+   background-image: url(https://phonoteka.org/uploads/posts/2021-05/1621756087_31-phonoteka_org-p-fon-s-formulami-po-matematike-32.jpg);
+   
+} 
+.wrapper{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 900px;
+    background-color: rgba(255, 255, 255, 0.981);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
 }
-nav{
-    display: block;
+header{
     width: 100%;
-    min-height: auto;
-    background-color: rgba(158, 111, 182, 0.344);
+    background-color: blue;
+    height: 70px;
     position: relative;
     left: 0px;
     top: 0px;
-    position: fixed;
-}
-.list__a{
-    
-    border-color:black;
-    font-size: 120%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10%;
-    margin-right: 5%;
-    border-radius: 15px;
-    padding: 5px;
-    font-family: 'Montserrat', sans-serif;
-    background-color: honeydew;
-    user-select:none;
-    display: inline-block;
-    letter-spacing: 2px;
-    transition: 250ms;
-    text-decoration: none;
-    color: black;
-}
-
-.list__a:hover {
-    box-shadow: 0px 5px 5px rgba(97, 83, 83, 0.474);
-    transform:scale(105%)
-}
-.a{
-    margin-left: auto;
-    margin-right: auto;
-    width: 900px;
-    height: auto;
 }
 .content{
+    box-sizing: border-box;
+    min-height: 100%;
+    padding-bottom: 70px;
+    background-color: rgba(255, 255, 255, 0.392);
+    flex: 1 0 auto;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    display: block;
+    margin-top: -60px;
+    flex: 0 0 auto;
+}
+.a_logo{
+    text-decoration: none;
+    color: white;
+    width: 50px;
+    display: block;
+    background-image: url(/Page_Index/logo.png);
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    margin: auto;
+    border: 1;
+    border-color: black;
+  }
+.logo{
+    background-color: #fff;
+}
+.content_item{
     width: 620px;
     height: 100px;
     margin-left: auto;
@@ -51,7 +64,6 @@ nav{
     border: 1;
     background-color: black;
     border-radius: 25px;
-    margin-top: 60px;
 }
 #form-group{
     margin-bottom: 30px;
@@ -91,7 +103,4 @@ nav{
     height: 30px;
     width: 310px;
     border-radius: 0px 0px 25px 0px;
-}
-.text{
-    color: black;
 }

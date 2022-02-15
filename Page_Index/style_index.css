@@ -1,274 +1,122 @@
-html{
-    height: 100%;
-    width: 1900px;
-    max-width: 1900px;
-}
-body{
-    height: 1500px;
-    background-image: url(https://avatars.mds.yandex.net/i?id=2c54c08239c293f68bd1dcc8d82269fe-5607836-images-thumbs&n=13&exp=1);
+body,html{
+    background-color: gray;
+    min-height: 100%;
     margin: 0px;
-    padding: 0px;
-    width: 1900px;
-    margin-bottom: 0px;
-
-
+    height: 100%;
+   background-image: url(https://phonoteka.org/uploads/posts/2021-05/1621756087_31-phonoteka_org-p-fon-s-formulami-po-matematike-32.jpg);
+   
+}   
+.wrapper{
+    width: 1000px;
+    margin: auto;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.981);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+}
+header{
+    width: 100%;
+    background-color: blue;
+    height: 50px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+nav{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: 140px;
+    display: grid;
+    grid-template-rows:  170px 150px;
+    grid-template-columns: 170px 150px; 
+    
 }
 .content{
-    width: 620px;
-    height: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    border: 1;
+    box-sizing: border-box;
+    min-height: 100%;
+    padding-bottom: 70px;
+    background-color: rgba(255, 255, 255, 0.392);
+    flex: 1 0 auto;
+}
+footer{
     background-color: black;
-    border-radius: 25px;
-}
-.content1{
-    width: 620px;
-    height: 150px;
-    margin-left: auto;
-    margin-right: auto;
-    border: 1;
-    background-color: black;
-    border-radius: 25px;
-}
-#content__title{
-    margin-right: auto;
-    margin-left: auto;
-    height: 30px;
-    width: 100px;
-
-}
-#content__title1{
-    margin-right: auto;
-    margin-left: auto;
-    height: 30px;
-    width: 100px;
-
-}
-#form-group{
-    margin-bottom: 30px;
-    display: block;
-}
-#form-group1{
-    margin-bottom: 30px;
-    display: block;
-}
-#form-group2{
-    margin-bottom: 30px;
-    display: block;
-}
-.divbtn{
-    margin-top: 6.5%;
-    display: flex;
-
-}
-.divbtn1{
-    margin-top: 15%;
-    display: flex;
-
-}
-#countButton{
-    height: 30px;
-    width: 310px;
-    border-radius: 0px 0px 0px 25px;
-    
-}
-#clearButton{
-    height: 30px;
-    width: 310px;
-    border-radius: 0px 0px 25px 0px;
-}
-#countButton1{
-    height: 30px;
-    width: 310px;
-    border-radius: 0px 0px 0px 25px;
-    
-}
-#clearButton1{
-    height: 30px;
-    width: 310px;
-    border-radius: 0px 0px 25px 0px;
-}
-.form-control{
-    display: block;
-    float: left;
-    width: 180px
-}
-.input__style{
-    display: flex;
-}
-.label{
-    float: left;
-}
-.intp{
-    margin-left: 14px;
-}
-.intp1{
-    margin-left: 14px;
-    margin-top: 15px;
-}
-#countButton2{
-    height: 30px;
-    width: 310px;
-    border-radius: 0px 0px 0px 25px;
-}
-#clearButton2{
-    height: 30px;
-    width: 310px;
-    border-radius: 0px 0px 25px 0px;
-}
-.log{
-    border: 1;
-    background-color: grey;
-    width: 500px;
-    height: 250px;
-    position: absolute;
-    top: 0px;
-    left: 1400px;
-    border-radius: 0px 0px 0px 25px;
-}
-#log__countButton{
-    width: 250px;
-    height: 40px;
-    border-radius: 0px 0px 0px 25px;
-}
-#log__clearButton{
-    width: 250px;
-    height: 40px;
-    border-radius: 0px 0px px 0px;
-
-}
-.log__form-control{
-    display: flex;
-    float: left;
-    margin-top: 20px;
-}
-.input__base{
-    width: 28px;
-    height: 28px;
-    position: relative;
-    left: 70px;
-    top: 10px;
-}
-.input__num{
-    width: 34px;
-    height: 34px;
-    position: relative;
-    left: 105px;
-    top: -70px;
-}
-.img__log{
-    width: 50px;
-    position: relative;
-    top: 50px;
-    left: 35px;
-}
-.img__ic{
-    width: 30px;
-    position: relative;
-    left: 160px;
-    top: 20px;
-
-}
-.log__span{
-    border: 1;
-    position: relative;
-    top: -46px;
-    left: 200px;
-    color: black;
-    background-color: white;
-    width: 290px;
-}
-
-#footer{
-    position: absolute;
-	left: 0;
-	bottom: -630px;
-	width: 100%;
-	height: 80px;
-    background-color: black;
-    color: white;
-    text-align: center;
-}
-.list__a{
-    
-    border-color:black;
-    font-size: 120%;
-    margin-top: 16px;
-    margin-bottom: 10px;
-    margin-left: 5%;
-    margin-right: 5%;
-    border-radius: 15px;
-    padding: 5px;
-    font-family: 'Montserrat', sans-serif;
-    background-color: honeydew;
-    user-select:none;
-    display: inline-block;
-    letter-spacing: 2px;
-    transition: 500ms;
-    transform: translateY(5px);
-    text-decoration: none;
-    color: black;
-    
-}
-.list__a:hover {
-    box-shadow: 0px 15px 20px rgba(97, 83, 83, 0.474);
-    transform:scale(105%)
-}
-.list__div{
-    width: 150px;
-    height: 35px;
-    padding-bottom: 35px;
-    border: 1;
-    border-color: #111;
-
-}
-.list-content{
-    color: black;
-    font-size: 30px;
-    text-align: center;
+    width: 100%;
     height: 60px;
-    padding-bottom: 30px;
-}
-.menu_mobile {
-    position: fixed;
     display: block;
-    width:200px;
-    height: 91.5%;
-    left: -200px;
-    top: 0;
-    z-index: 1;
-    background-color: rgba(237, 225, 225, 0.563);
-    transition: left 1s 0s;
+    margin-top: -60px;
+    flex: 0 0 auto;
+}
+.flip{
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
   }
-  
-  .menu_mobile.active {
-    left: 0px;
-    transition: left 1s;
-  }
-  
-  .close-menu {
-    margin: 10px 10px 10px 10px ;
-    transform: scale(0);
-    transition: transform 0s;
-  }
-  
-  .close-menu-active {
-    transform: scale(1);
-    transition: transform 0s 0s;
-  }
-  
-  #gif_rofl{
-      width: 600px;
-      height: 300px;
+  .flip__body {
       position: relative;
-      left: -1300px;
-      top: 150px;
-      display: none;
-      
+      width: 150px;
+      height: 150px;
+      transition: all 0.8s ease 0s;
+      transform-style: preserve-3d;
+      border: 3;
+      border-radius: 25px;
   }
-  #menu_arrow{
-      position: relative;
-      left: 0px;
-      top: -200px;
+  .flip__front,
+  .flip__back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 90%;
+      text-align: center;
+      border-radius: 25px;
+  }
+  .flip__front {
+      z-index: 2;
+      transform: rotateY(0deg);
+      background-color: black;
+      border-radius: 25px;
+      backface-visibility: hidden;
+  }
+  .flip__back {
+      transform: rotateY(-180deg);
+      background-color: rgba(121, 79, 69, 0.5);
+      border-radius: 25px;
+  }
+  
+  .flip:hover .flip__body {
+      transform: rotateY(-180deg);
+      border-radius: 25px;
+  }
+  .a_tile{
+    text-decoration: none;
+    color: white;
+    width: 150px;
+    display: block;
+    border-radius: 25px;
+  }
+  .a_logo{
+    text-decoration: none;
+    color: white;
+    width: 50px;
+    display: block;
+    background-image: url(logo.png);
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    margin: auto;
+  }
+  .tile{
+    position: relative;
+    left: 85px;
+    top: 100px;
+    
   }

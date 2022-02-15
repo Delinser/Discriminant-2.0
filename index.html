@@ -10,115 +10,76 @@
     <link rel="shortcut icon" href="/Page_Index/favicon(1).ico">
 </head> 
 <body>
-  <div class="content">
-    <div id="form-group1">
-      <div id="content__title1">
-         <h3  style="color: azure;">Pythagoras</h3>
-      </div>
-        <label for="inp_4" class="label" style="color:white;" >
-          <div class="intp">
-            <input type="text" class="form-control" placeholder="A" id="inp_4">
-          </div>
-        </label>
-        <label for="inp_5" class="label" style="color:white;" >
-          <div class="intp">
-            <input type="text" class="form-control" placeholder="B" id="inp_5">
-          </div>
-        </label>
-        <label for="inp_6" class="label" style="color:white;" >
-          <div class="intp">
-            <input type="text" class="form-control" placeholder="C" id="inp_6">
-          </div>
-        </label>
-    </div>
-    <div class="divbtn">
-      <button id="countButton1">Count</button>
-      <button id="clearButton1">Clear</button>
-    </div>
-  <div class="content1">
-    <div id="form-group2">
-      <div id="content__title1">
-        <h3  style="color: azure;">Theorema of sinuses</h3>
-      </div>
-        <label for="inp_7" class="label" style="color:white;" >
-          <div class="intp1">
-            <input type="text" class="form-control" placeholder="AB" id="inp_7">
-          </div>
-        </label>
-        <label for="inp_8" class="label" style="color:white;" >
-          <div class="intp1">
-            <input type="text" class="form-control" placeholder="BC" id="inp_8">
-          </div>
-        </label>
-        <label for="inp_9" class="label" style="color:white;" >
-          <div class="intp1">
-            <input type="text" class="form-control" placeholder="CA" id="inp_9">
-          </div>
-        </label>
-        <label for="inp_10" class="label" style="color:white;" >
-          <div class="intp1">
-            <input type="text" class="form-control" placeholder="sinC" id="inp_10">
-          </div>
-        </label>
-        <label for="inp_11" class="label" style="color:white;" >
-          <div class="intp1">
-            <input type="text" class="form-control" placeholder="sinA" id="inp_11">
-          </div>
-        </label>
-        <label for="inp_12" class="label" style="color:white;" >
-          <div class="intp1">
-            <input type="text" class="form-control" placeholder="sinB" id="inp_12">
-          </div>
-        </label>
-  </div> 
-    <div class="divbtn1">
-      <button id="countButton2">Count</button>
-      <button id="clearButton2">Clear</button>
-    </div> 
-    <div id="log-frame" class="log">
-        <div id="content__title1">
-          <h3  style="color: black;">Logarithm </h3>
-        </div>
-        <img class="img__log" src="https://umath.ru/wp-content/ql-cache/quicklatex.com-f3b43fc96d2cb0b1cd992c829c09f605_l3.svg" alt="">
-        <img class="img__ic" src="https://umath.ru/wp-content/ql-cache/quicklatex.com-6d9af0fe29a3b4d02d28227febaf4825_l3.svg" alt="">
-      <label for="inp_13" class="#" style="color:white;" >
-        <div class="intp1">
-          <input type="text" class="input__base" placeholder="Base" id="inp_13">
-        </div>
-        <div class="log__span">
-          <span id="log__span" ></span>
-        </div>
-        </label>
-        <label for="inp_14" class="#" style="color:white;" >
-        <div class="intp1">
-          <input type="text" class="input__num" placeholder="Num" id="inp_14">
-        </div>
-      <div class="log__form-control">
-          <button id="log__countButton">Count</button>
-          <button id="log__clearButton">Clear</button>
-      </div>
-    </div>
-    </div>
-    <div class="menu-btn">
-      <button id="menu_" class="button-19" role="button"  onclick="(document.getElementById('menu_').style.display='none')" >Menu</button>
-    </div>
-  </div>
-
-    <div class="menu_mobile">
-        <button class="close-menu" onclick="(document.getElementById('menu_').style.display='block')">X</button>
-        <div class="list-content"><h4> Content </h4></div>
-      <div class="list__div"><a  class="list__a" href="/Page_Discriminant/Disciminant.html">Discriminant</a></div>
-      <div class="list__div"><a  class="list__a" href="/Page_Pythagoras/Pythagoras.html">Pythagoras</a></div>
-      <div class="list__div"><a  class="list__a" href="/Page_Th-of-sinuses/Th-of-sinuses.html">Th of sinuses</a></div>
-      <div class="list__div"><a  class="list__a" href="/Page_Logarithm/Logarithm.html">Logarithm</a></div>
-      <div class="list_div"><a class="list__a" onclick="(document.getElementById('gif_rofl').style.display='block')">Prikol</a></div>
+  <div class="wrapper">
+    <header>
+      <a class="a_logo" href="/index.html">
+        <div class="logo"></div>
+      </a>
       
+    </header>
+    <div class="content">
+        <nav>
+          <div class="tile">
+            <a class="a_tile" href="/Page_Discriminant/Disciminant.html">
+            <div class="flip" >
+                <div  class="flip__body">
+                    <div  class="flip__front">
+                        Discrimitant
+                    </div>
+                    <div  class="flip__back">
+                       Данная страница позволит определить дискриминант и найти корни.
+                    </div>
+                </div>
+            </div>
+            </a>
+          </div>
+          <div class="tile">
+            <a class="a_tile" href="/Page_Pythagoras/Pythagoras.html">
+            <div class="flip" >
+                <div  class="flip__body">
+                    <div  class="flip__front">
+                        Pythagoras
+                    </div>
+                    <div  class="flip__back">
+                       Данная страница позволит найти третью сторону прямоугольного треуголтника.
+                    </div>
+                </div>
+            </div>
+            </a>
+          </div>
+          <div class="tile">
+            <a class="a_tile" href="/Page_Logarithm/Logarithm.html">
+            <div class="flip" >
+                <div  class="flip__body">
+                    <div  class="flip__front">
+                        Logarithm
+                    </div>
+                    <div  class="flip__back">
+                       Данная страница позволит найти значение логарифма.
+                    </div>
+                </div>
+            </div>
+            </a>
+          </div>
+          <div class="tile">
+            <a class="a_tile" href="/Page_Th-of-sinuses/Th-of-sinuses.html">
+            <div class="flip" >
+                <div  class="flip__body">
+                    <div  class="flip__front">
+                        Th of sinuses
+                    </div>
+                    <div  class="flip__back">
+                       Данная страница ничего не позволит.
+                    </div>
+                </div>
+            </div>
+            </a>
+          </div>
+        </nav>
     </div>
-   <button class="button-19" id="menu_arrow">></button>
-    <img id="gif_rofl" src="https://c.tenor.com/McYoUCMMNlMAAAAd/papich-%D0%BF%D0%B0%D0%BF%D0%B8%D1%87.gif" alt=""> 
-    <footer id="footer">
-      <h4>Made by aleksdupx & Delinser </h4>
+    <footer>
     </footer>
+  </div>
 </body>
 </html>  
   

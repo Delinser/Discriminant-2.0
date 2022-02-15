@@ -15,12 +15,8 @@ let X1 = (-B + Math.sqrt(D))/ (2*A)
 let X2 = (-B - Math.sqrt(D))/ (2*A)
 let B_sqrt =  B**2
 let Dsq = Math.sqrt(D)
-if((A == "" && B == "")&& C==""){
-    alert("enter numbers")
-}
-else{
-    if(A == ""){                                                                    //output 
-        alert("NoN")
+    if((A == "" || B == "")|| C == ""){                                                                    //output 
+        alert("Enter all numbers")
 
     }
     else{                                                                           
@@ -36,8 +32,6 @@ else{
             }
         }
     }
-}
-
 };
 
 clearButton.onclick = function clearf(){                                        //Clear values in inputs(dis)

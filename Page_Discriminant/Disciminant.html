@@ -9,42 +9,45 @@
     <script defer src="script_Discriminant.js"></script>
 </head>
 <body>
-    <nav>
-            <div class="a">
-                <a class="list__a" style="margin-left: auto; margin-right: auto;" href="/index.html">Главная</a>
-                <a class="list__a" href="">Logarithm</a>
-                <a class="list__a" href="">Pythagoras</a>
-                <a class="list__a" style="margin-right: 0px;" href="">Th-of-sinuses</a>
-            </div>
-            
-    </nav>
+  <div class="wrapper">
+    <header>
+        <a class="a_logo" href="/index.html">
+            <div class="logo"></div>
+          </a>
+    </header>
     <div class="content">
-        <div id="form-group">
-          <div id="content__title">
-            <h3  style="color: rgba(255, 255, 255, 0.986);">Discriminant</h3>
+        <div class="content_item">
+            <div id="form-group">
+              <div id="content__title">
+                <h3  style="color: rgba(255, 255, 255, 0.986);">Discriminant</h3>
+              </div>
+                <label for="inp_1" class="label" style="color:white;" >
+                  <div class="intp">
+                    <input type="text" class="form-control" placeholder="A" id="inp_1">
+                  </div>
+                </label>
+                <label for="inp_2" class="label" style="color:white;" >
+                  <div class="intp">
+                    <input type="text" class="form-control" placeholder="B" id="inp_2">
+                  </div>
+                </label>
+                <label for="inp_3" class="label" style="color:white;" >
+                  <div class="intp">
+                    <input type="text" class="form-control" placeholder="C" id="inp_3">
+                  </div>
+                </label>
           </div>
-            <label for="inp_1" class="label" style="color:white;" >
-              <div class="intp">
-                <input type="text" class="form-control" placeholder="A" id="inp_1">
-              </div>
-            </label>
-            <label for="inp_2" class="label" style="color:white;" >
-              <div class="intp">
-                <input type="text" class="form-control" placeholder="B" id="inp_2">
-              </div>
-            </label>
-            <label for="inp_3" class="label" style="color:white;" >
-              <div class="intp">
-                <input type="text" class="form-control" placeholder="C" id="inp_3">
-              </div>
-            </label>
-      </div>
-        <div class="divbtn">
-          <button id="countButton">Count</button>
-          <button id="clearButton">Clear</button>
+            <div class="divbtn">
+              <button id="countButton">Count</button>
+              <button id="clearButton">Clear</button>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque mollitia provident sed magnam nostrum ullam magni vero ad aut eum, voluptatum dolore eveniet, eaque 
-          expedita, id ea voluptatem? Nam, cum.</div>
+        
+    <footer>
+
+    </footer>
+</div>
+   
 </body>
 </html>
