@@ -1,7 +1,8 @@
 window.onload = function clear__all__after__update() {
     document.getElementById("inp_1").value = ""
     document.getElementById("inp_2").value = ""
-    document.getElementById("inp_3").value = ""  
+    document.getElementById("inp_3").value = ""
+    document.getElementById("output").innerHTML = '';  
  }; 
 
 countButton.onclick = function dis()   {                                                 // Pull values from inputs(dis)
@@ -15,20 +16,30 @@ let X1 = (-B + Math.sqrt(D))/ (2*A)
 let X2 = (-B - Math.sqrt(D))/ (2*A)
 let B_sqrt =  B**2
 let Dsq = Math.sqrt(D)
+let im_A = A;
+let im_C = C;
+
+if(A < 0){
+    im_A = '(' + A + ')' 
+    
+}  
+if(C < 0){
+    im_C = '(' + C + ')'
+}
     if((A == "" || B == "")|| C == ""){                                                                    //output 
-        alert("Enter all numbers")
+        document.getElementById('output').innerHTML = 'Enter all numbers';
 
     }
     else{                                                                           
         if(D>0){
-        alert("D=" + B_sqrt + "-4*" + A +"*" + C + "=" + D + '\n' + "X1=" + "(" + -B + "+" + Dsq + ")" + "/" + "(" + A + "*2" + ")" + "=" + X1 + '\n' + "X2=" + "(" + -B + "-" + Dsq + ")/("+  A + "*2"+ ")"+ "=" + X2  )
+            document.getElementById("output").innerHTML = "D=" + B_sqrt + "-4*" +im_A +"*" + im_C + "=" + D + '<br>' + "X1=" + "(" + -B + "+" + Dsq + ")" + "/" + "(" + A + "*2" + ")" + "=" + X1 + '<br>' + "X2=" + "(" + -B + "-" + Dsq + ")/("+  A + "*2"+ ")"+ "=" + X2 ;
         }
         else{
             if(X1 == X2){
-                alert("D=" +  B_sqrt + "-4*" + A + "*" + C + "=" + D + '\n' + "X12=" + "(" + -B + "+" + Dsq + ")" + "/" + "(" + A + "*2)"+ "=" + X1  )
+                document.getElementById('output').innerHTML = "D=" +  B_sqrt + "-4*" + im_A + "*" + im_C + "=" + D + '<br>' + "X12=" + "(" + -B + "+" + Dsq + ")" + "/" + "(" + A + "*2)"+ "=" + X1 ;
             }
             else {
-                alert("D=" + B_sqrt + "-4*" + A +"*" + C + "=" + D  +  '\n' +  "Nan")
+                document.getElementById('output').innerHTML = "D=" + B_sqrt + "-4*" + im_A +"*" + im_C + "=" + D  +  '<br>' +  "Nan";
             }
         }
     }
@@ -38,4 +49,5 @@ clearButton.onclick = function clearf(){                                        
     document.getElementById("inp_1").value = ""
     document.getElementById("inp_2").value = ""
     document.getElementById("inp_3").value = ""
+    document.getElementById("output").innerHTML = '';
 };
