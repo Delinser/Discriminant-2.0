@@ -19,11 +19,11 @@ let Dsq = Math.sqrt(D)
 let im_A = A;
 let im_C = C;
 
-if(A < 0){
+if (A < 0) {
     im_A = '(' + A + ')' 
     
 }  
-if(C < 0){
+if (C < 0) {
     im_C = '(' + C + ')'
 }
     if((A == "" || B == "")|| C == ""){                                                                    //output 
